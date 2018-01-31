@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
     trial: false,
   };
   res.render('index', {
-    title: 'Welcome',
+    title: 'Welcome to Moon Indigo',
     message: 'Link your email to get started.',
     url: Nylas.urlForAuthentication(options),
   });

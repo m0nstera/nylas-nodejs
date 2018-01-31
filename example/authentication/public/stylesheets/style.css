@@ -83,11 +83,11 @@
   -moz-osx-font-smoothing: grayscale;      
 }
 .login {
-  background: #0B2545; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #0B2545, #09203D);
-  background: -moz-linear-gradient(right, #0B2545, #09203D);
-  background: -o-linear-gradient(right, #0B2545, #09203D);
-  background: linear-gradient(to left, #0B2545, #09203D);
+  background: #251136; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #fcccc0, #251136);
+  background: -moz-linear-gradient(right, #fcccc0, #251136);
+  background: -o-linear-gradient(right, #fcccc0, #251136);
+  background: linear-gradient(right, #fcccc0, #251136);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
@@ -104,8 +104,9 @@ a {
 .login-btn {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
+  border-radius: 2px;
   outline: 0;
-  background: #13315C;
+  background: #845f84;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -118,7 +119,7 @@ a {
 }
 
 .login-btn:hover, .login-btn:active, .login-btn:focus {
-  background: #134074;
+  background: #946b94;
 }
 
 .exchange-btn {
